@@ -1,3 +1,14 @@
+function toggleVideo(container) {
+    const video = container.querySelector('video');
+    if (video.paused) {
+        video.play();
+        container.classList.add('playing');
+    } else {
+        video.pause();
+        container.classList.remove('playing');
+    }
+}
+
 const translations = {
     en: {
         title_main: "Video submission for<br>Ashwini Reloaded",
