@@ -146,7 +146,7 @@ if ($pdo) {
             <div class="card">
                 <h3>Latest Submission</h3>
                 <div class="value" style="font-size: 1.5rem; line-height: 2rem; margin-top: 15px;">
-                    <?= $total_submissions > 0 ? htmlspecialchars(explode(" ", $submissions[0]['Timestamp'])[0]) : 'None yet' ?>
+                    <?= $total_submissions > 0 ? htmlspecialchars(explode(" ", $submissions[0]['timestamp'])[0]) : 'None yet' ?>
                 </div>
             </div>
         </div>
