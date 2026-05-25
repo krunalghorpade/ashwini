@@ -17,25 +17,14 @@ if ($data) {
     $consent = strip_tags($data['consent'] ?? '');
     $timestamp = date('Y-m-d H:i:s');
 
-    // CSV File Path
-    $csvFile = 'submissions.csv';
+    require_once 'database.php';
+    $pdo = getDBConnection();
     
-    // Check if file exists to write headers
-    $fileExists = file_exists($csvFile);
-    
-    // Open file in append mode
-    $file = fopen($csvFile, 'a');
-    
-    if ($file) {
-        if (!$fileExists) {
-            // Write headers
-            fputcsv($file, ['Timestamp', 'Full Name', 'DOB', 'Location', 'Email', 'Contact Number', 'Instagram ID', 'Message', 'Consent']);
-        }
-        
-        // Write data
-        fputcsv($file, [$timestamp, $name, $dob, $location, $email, $contact, $insta, $message, $consent]);
-        
-        fclose($file);
+    if ($pdo) {
+        $insertQuery = "INSERT INTO submissions (timestamp, full_name, dob, location, email, contact_number, insta_id, message, consent) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        $stmt = $pdo->prepare($insertQuery);
+        $stmt->execute([$timestamp, $name, $dob, $location, $email, $contact, $insta, $message, $consent]);
+
         
         // Generate Legal PDF
         require('fpdf.php');
