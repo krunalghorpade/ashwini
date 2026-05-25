@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwini Reloaded - Video Submission</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switch-container">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="mr">मराठी</button>
+    </div>
+
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="assets/images/logo_Black.png" alt="Logo" class="main-logo">
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <form id="submission-form">
+            <!-- Step 1: Instructions -->
+            <div class="form-step active" id="step-1">
+                <h1 class="serif-heading" data-i18n="title_main">Video submission for<br>Ashwini Reloaded</h1>
+                
+                <div class="spotify-embed mb-4">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2sdQtihO2HtjGC45WrL0Un?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
+                <p class="subtitle" data-i18n="subtitle_main">Search for moments, capture chaos, organize memories and record with real life energy — all without overthinking it.</p>
+                
+                <div class="instructions-content">
+                    <p class="intro" data-i18n="intro">Hey Ashwini 😭❤️ You are officially part of the music video.</p>
+                    
+                    <div class="two-col-grid">
+                        <div class="info-card">
+                            <h3 data-i18n="format_rules_title">🚨 Format & Rules</h3>
+                            <p data-i18n="rule_1"><strong>ALL VIDEOS MUST BE SHOT HORIZONTALLY</strong></p>
+                            <p data-i18n="rule_2">Please rotate your phone sideways before recording. Landscape format only.</p>
+                            <p data-i18n="rule_3">This is NOT a professional shoot. Feel like internet chaos, memories, vlog moments.</p>
+                            <p data-i18n="rule_4">Upload maximum 5 to 10 clips (5-15s each).</p>
+                        </div>
+                        <div class="info-card">
+                            <h3 data-i18n="what_to_shoot_title">What to shoot</h3>
+                            <p data-i18n="shoot_1">Selfie videos, mirror videos, dancing, laughing, singing, cafe moments, car rides, getting ready, night drives, clips with friends.</p>
+                            <p data-i18n="shoot_2"><strong>DO NOT:</strong> Add filters, heavy edits, text on video, or music on top.</p>
+                        </div>
+                    </div>
+                    <p class="trust-text" data-i18n="trust_text">The more REAL your video feels, the better it will look in the final edit.</p>
+                </div>
+
+                <div class="btn-group center mt-4">
+                    <button type="button" class="btn btn-primary next-btn" data-i18n="btn_lets_go">Let's go I am in</button>
+                </div>
+            </div>
+
+            <!-- Step 2: What we need -->
+            <div class="form-step" id="step-2">
+                <h1 class="serif-heading" style="font-size: 3.5rem;" data-i18n="step2_title">What we need from you</h1>
+                <p class="subtitle" data-i18n="step2_subtitle">Relax, you're making internet history. Here is the game plan:</p>
+
+                <div class="form-fields" style="max-width: 600px;">
+                    <ul class="funny-instructions">
+                        <li>
+                            <span class="emoji">📱</span>
+                            <div data-i18n="req_1"><strong>Hold it sideways!</strong> If we see vertical videos, we might cry. Seriously, horizontal landscape only!</div>
+                        </li>
+                        <li>
+                            <span class="emoji">💃</span>
+                            <div data-i18n="req_2"><strong>Zero overthinking.</strong> Did you trip while dancing? Laugh awkwardly? Perfect. We want the <em>real</em> you.</div>
+                        </li>
+                        <li>
+                            <span class="emoji">📸</span>
+                            <div data-i18n="req_3"><strong>No fancy setups.</strong> Bedroom, chai tapri, car, or midnight fridge raids. If it's your vibe, it's our vibe.</div>
+                        </li>
+                        <li>
+                            <span class="emoji">✨</span>
+                            <div data-i18n="req_4"><strong>Ditch the filters.</strong> We already know you're gorgeous. No text, no filters, no dramatic slow-mo needed.</div>
+                        </li>
+                        <li>
+                            <span class="emoji">🚀</span>
+                            <div data-i18n="req_5"><strong>Have fun with it.</strong> This isn't just a video, it's the ultimate Ashwini multiverse crossover. A once-in-a-lifetime opportunity!</div>
+                        </li>
+                    </ul>
+
+                    <div class="did-you-know">
+                        <h4 class="dyk-title" data-i18n="dyk_title">Did you know?</h4>
+                        <p data-i18n="dyk_1">The name <strong>Ashwini (अश्विनी)</strong> comes from Sanskrit and represents the first star (Nakshatra) in astronomy, symbolizing light and speed.</p>
+                        <p class="mt-2" data-i18n="dyk_2"><em>Fun fact:</em> Ashwinis are literally born to be stars! 🌟 So yes, being in this music video was basically your destiny.</p>
+                    </div>
+                </div>
+
+                <div class="btn-group center mt-4">
+                    <button type="button" class="btn btn-secondary prev-btn" data-i18n="btn_back">Back</button>
+                    <button type="button" class="btn btn-primary next-btn" data-i18n="btn_born_ready">I was born ready</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Personal Details -->
+            <div class="form-step" id="step-3">
+                <h1 class="serif-heading" data-i18n="step3_title">About You</h1>
+                <p class="subtitle" data-i18n="step3_subtitle">Tell us who you are so we can credit you properly.</p>
+                
+                <div class="form-fields">
+                    <div class="input-group">
+                        <label for="fullName" data-i18n="lbl_name">Full Legal Name</label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="e.g. Ashwini Sharma" data-i18n-placeholder="ph_name">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="dob" data-i18n="lbl_dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="location" data-i18n="lbl_city">City / Country</label>
+                        <input type="text" id="location" name="location" required placeholder="e.g. Mumbai, India" data-i18n-placeholder="ph_city">
+                    </div>
+                </div>
+
+                <div class="btn-group center mt-4">
+                    <button type="button" class="btn btn-secondary prev-btn" data-i18n="btn_back">Back</button>
+                    <button type="button" class="btn btn-primary next-btn" data-i18n="btn_continue">Continue</button>
+                </div>
+            </div>
+
+            <!-- Step 4: Contact & Socials -->
+            <div class="form-step" id="step-4">
+                <h1 class="serif-heading" data-i18n="step4_title">Contact Details</h1>
+                <p class="subtitle" data-i18n="step4_subtitle">How can we reach out and tag you on social media?</p>
+
+                <div class="form-fields">
+                    <div class="input-group">
+                        <label for="email" data-i18n="lbl_email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="ashwini@example.com" data-i18n-placeholder="ph_email">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="contactNumber" data-i18n="lbl_phone">Contact Number (Optional)</label>
+                        <input type="tel" id="contactNumber" name="contactNumber" placeholder="+91 9876543210" data-i18n-placeholder="ph_phone">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="instaId" data-i18n="lbl_insta">Instagram ID</label>
+                        <input type="text" id="instaId" name="instaId" required placeholder="@yourhandle" data-i18n-placeholder="ph_insta">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="specialMessage" data-i18n="lbl_msg">Special Message (Optional)</label>
+                        <textarea id="specialMessage" name="specialMessage" rows="3" placeholder="Tell us how you feel!" data-i18n-placeholder="ph_msg"></textarea>
+                    </div>
+                </div>
+
+                <div class="btn-group center mt-4">
+                    <button type="button" class="btn btn-secondary prev-btn" data-i18n="btn_back">Back</button>
+                    <button type="button" class="btn btn-primary next-btn" data-i18n="btn_continue">Continue</button>
+                </div>
+            </div>
+
+            <!-- Step 5: Reference Videos -->
+            <div class="form-step" id="step-5">
+                <h1 class="serif-heading" data-i18n="step5_title">Reference Videos</h1>
+                <p class="subtitle" data-i18n="step5_subtitle">Here are some great examples to get you inspired!</p>
+
+                <div class="form-fields" style="max-width: 100%;">
+                    <div class="alert-box mb-4" data-i18n="ref_note">
+                        <strong>NOTE:</strong> The reference videos below have text on them. Please <em>ignore the text</em> as it is made by the creator. You must submit your videos <strong>without any text</strong> on it.
+                    </div>
+
+                    <div class="video-carousel mb-4">
+                        <iframe src="https://www.instagram.com/reel/DX1A4-2oCOt/embed/" width="320" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                        <iframe src="https://www.instagram.com/reel/DXv_v3MIhN7/embed/" width="320" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                        <iframe src="https://www.instagram.com/reel/DV_TMymiGNu/embed/" width="320" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                        <iframe src="https://www.instagram.com/reel/DVlBRhQiLB9/embed/" width="320" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                        <iframe src="https://www.instagram.com/reel/DTxG0luiHnf/embed/" width="320" height="540" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                    </div>
+
+                    <p class="trust-text mt-4" data-i18n="ref_shoutout">
+                        A massive shoutout to our friend <a href="https://www.instagram.com/kellyrosedavids/reels/" target="_blank" style="color: var(--text-primary); font-weight: 600;">Kelly Rose Davids</a> for helping us with these reference videos! Go check out her amazing reels 🙌
+                    </p>
+                </div>
+
+                <div class="btn-group center mt-4">
+                    <button type="button" class="btn btn-secondary prev-btn" data-i18n="btn_back">Back</button>
+                    <button type="button" class="btn btn-primary next-btn" data-i18n="btn_continue">Continue</button>
+                </div>
+            </div>
+
+            <!-- Step 6: Permission -->
+            <div class="form-step" id="step-6">
+                <h1 class="serif-heading" data-i18n="step6_title">Permissions</h1>
+                <p class="subtitle" data-i18n="step6_subtitle">Review and confirm your submission.</p>
+
+                <div class="form-fields">
+                    <div class="permission-box">
+                        <p data-i18n="perm_intro">By submitting your videos, you allow Kratex and team to use your clips in:</p>
+                        <ul>
+                            <li data-i18n="perm_1">Official music video</li>
+                            <li data-i18n="perm_2">Reels & Teasers</li>
+                            <li data-i18n="perm_3">Promotional edits</li>
+                            <li data-i18n="perm_4">Social media posts</li>
+                        </ul>
+                    </div>
+
+                    <div class="alert-box mb-4" style="background: var(--btn-secondary-bg); border: 1px solid var(--border-color); color: var(--text-primary);">
+                        <h4 style="margin-bottom: 8px;" data-i18n="expect_title">What happens next?</h4>
+                        <ul style="padding-left: 20px; font-size: 0.95rem; margin-bottom: 12px; line-height: 1.6;">
+                            <li data-i18n="expect_1">You will receive full credits using your legal name.</li>
+                            <li data-i18n="expect_2">A huge shoutout on all my social media.</li>
+                            <li data-i18n="expect_3">We might host an exclusive "Ashwini only" party (maybe!).</li>
+                        </ul>
+                        <p style="font-weight: 600; font-size: 0.95rem; color: var(--error-color);" data-i18n="deadline_text">🚨 Submission Deadline: 25 June 2026</p>
+                    </div>
+
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="consent" name="consent" required value="Yes">
+                        <span class="checkmark"></span>
+                        <span class="checkbox-text" data-i18n="perm_check">I agree to the terms and give permission to use my clips.</span>
+                    </label>
+                </div>
+
+                <div class="btn-group center mt-4">
+                    <button type="button" class="btn btn-secondary prev-btn" data-i18n="btn_back">Back</button>
+                    <button type="submit" class="btn btn-primary" id="submit-btn" data-i18n="btn_submit">Submit Details</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Success / Upload Step -->
+        <div class="form-step success-step" id="success-step" style="display:none;">
+            <h1 class="serif-heading" data-i18n="success_title">Details Submitted</h1>
+            <p class="subtitle" data-i18n="success_subtitle">Thank you! Your information is saved.</p>
+            
+            <div class="dropbox-container">
+                <p data-i18n="success_msg1">Click the button below to upload your videos to our secure Dropbox folder.</p>
+                <p class="reminder-text" data-i18n="success_msg2">Remember: <strong>HORIZONTAL VIDEOS ONLY</strong></p>
+                <a href="https://www.dropbox.com/request/fe6evyknah87l48fpwjp" target="_blank" class="btn btn-primary mt-4" data-i18n="btn_dropbox">Upload to Dropbox</a>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2 class="serif-heading" data-i18n="faq_title" style="font-size: 2rem; text-align: center; margin-bottom: 20px;">Frequently Asked Questions</h2>
+                <div class="accordion" id="faq-accordion">
+                    <!-- Q1 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_1_q">Do I need to be a professional dancer/actor?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_1_a">No! We just want real people having fun.</p>
+                        </div>
+                    </div>
+                    <!-- Q2 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_2_q">Can I submit multiple videos?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_2_a">Yes, you can submit up to 5-10 clips, but keep them short (5-15s each).</p>
+                        </div>
+                    </div>
+                    <!-- Q3 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_3_q">Should I add music to my clips?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_3_a">No, please submit raw videos. We will add the track during the final edit.</p>
+                        </div>
+                    </div>
+                    <!-- Q4 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_4_q">When is the deadline?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_4_a">June 25, 2026. Make sure to upload before then!</p>
+                        </div>
+                    </div>
+                    <!-- Q5 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_5_q">Can I use filters?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_5_a">Please avoid filters, text overlays, or heavy edits. Keep it natural.</p>
+                        </div>
+                    </div>
+                    <!-- Q6 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_6_q">Will I get paid for this?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_6_a">This is a collaborative community project. While there is no financial compensation, you will get full credits and a shoutout.</p>
+                        </div>
+                    </div>
+                    <!-- Q7 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_7_q">How will I know if my video is selected?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_7_a">We will tag you on our socials and you will see your name in the credits when the video drops!</p>
+                        </div>
+                    </div>
+                    <!-- Q8 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_8_q">Do I need to shoot in 4K?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_8_a">Standard HD (1080p) from your phone is perfectly fine. Just make sure it is horizontally shot.</p>
+                        </div>
+                    </div>
+                    <!-- Q9 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_9_q">What if I make a mistake while recording?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_9_a">Keep it! We love bloopers, awkward laughs, and real chaotic energy.</p>
+                        </div>
+                    </div>
+                    <!-- Q10 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" data-i18n="faq_10_q">Can I include my friends in the video?</button>
+                        <div class="accordion-content">
+                            <p data-i18n="faq_10_a">Absolutely! Just make sure they are okay with being in the final edit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
