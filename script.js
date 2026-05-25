@@ -16,7 +16,7 @@ const translations = {
 
         step2_title: "What we need from you",
         step2_subtitle: "Relax, you're making internet history. Here is the game plan:",
-        req_1: "<strong>Hold it sideways!</strong> If we see vertical videos, we might cry. Seriously, horizontal landscape only!",
+        req_1: "<strong>Hold it sideways for your selfies!</strong> We want to see you, but if we see vertical selfie videos, we might cry. Seriously, horizontal selfie look only!",
         req_2: "<strong>Zero overthinking.</strong> Did you trip while dancing? Laugh awkwardly? Perfect. We want the <em>real</em> you.",
         req_3: "<strong>No fancy setups.</strong> Bedroom, chai tapri, car, or midnight fridge raids. If it's your vibe, it's our vibe.",
         req_4: "<strong>Ditch the filters.</strong> We already know you're gorgeous. No text, no filters, no dramatic slow-mo needed.",
@@ -72,6 +72,8 @@ const translations = {
         success_msg1: "Click the button below to upload your videos to our secure Dropbox folder.",
         success_msg2: "Remember: <strong>HORIZONTAL VIDEOS ONLY</strong>",
         btn_dropbox: "Upload to Dropbox",
+        wa_msg: "Join our official WhatsApp group (Admin only) for all announcements related to the Ashwini Reloaded project!",
+        btn_whatsapp: "Join WhatsApp Group",
 
         faq_title: "Frequently Asked Questions",
         faq_1_q: "Do I need to be a professional dancer/actor?",
@@ -112,7 +114,7 @@ const translations = {
 
         step2_title: "आम्हाला तुमच्याकडून काय हवे आहे",
         step2_subtitle: "शांत व्हा, तुम्ही इंटरनेटचा इतिहास रचत आहात. हा आहे आपला प्लॅन:",
-        req_1: "<strong>फोन आडवा धरा!</strong> जर आम्ही उभे (Vertical) व्हिडिओ पाहिले, तर आम्हाला रडू येईल. खरोखर, फक्त आडवे (Horizontal) लँडस्केप!",
+        req_1: "<strong>तुमचे सेल्फी व्हिडिओ आडवे घ्या!</strong> आम्हाला तुम्हाला पाहायचे आहे, पण जर उभे (vertical) सेल्फी व्हिडिओ दिसले तर आम्ही रडू. खरोखर, फक्त आडवे सेल्फी व्हिडिओच चालतील!",
         req_2: "<strong>अजिबात विचार करू नका.</strong> डान्स करताना पडलात? विचित्र हसलात? उत्तम. आम्हाला तुम्ही जसे आहात तसे हवे आहात.",
         req_3: "<strong>कोणतेही फॅन्सी सेटअप नको.</strong> बेडरूम, चहाची टपरी, कार, किंवा मध्यरात्री फ्रिज उघडणे. जर ती तुमची स्टाईल असेल, तर ती आमचीही स्टाईल आहे.",
         req_4: "<strong>फिल्टर्स सोडा.</strong> आम्हाला आधीच माहीत आहे की तुम्ही सुंदर आहात. कोणताही मजकूर, फिल्टर्स, किंवा ड्रॅमॅटिक स्लो-मो नको.",
@@ -168,6 +170,8 @@ const translations = {
         success_msg1: "आमच्‍या सुरक्षित ड्रॉपबॉक्स फोल्डरमध्‍ये तुमचे व्हिडिओ अपलोड करण्‍यासाठी खालील बटणावर क्लिक करा.",
         success_msg2: "लक्षात ठेवा: <strong>फक्त आडवे (Horizontal) व्हिडिओ</strong>",
         btn_dropbox: "ड्रॉपबॉक्सवर अपलोड करा",
+        wa_msg: "अश्विनी रीलोडेड प्रकल्पाशी संबंधित सर्व घोषणांसाठी आमच्या अधिकृत व्हॉट्सॲप ग्रुपमध्ये (फक्त ॲडमिन) सामील व्हा!",
+        btn_whatsapp: "व्हॉट्सॲप ग्रुपमध्ये सामील व्हा",
 
         faq_title: "सतत विचारले जाणारे प्रश्न (FAQ)",
         faq_1_q: "मला व्यावसायिक डान्सर/अभिनेता असणे आवश्यक आहे का?",

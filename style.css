@@ -196,17 +196,32 @@ body {
 /* Funny Instructions List */
 .funny-instructions {
     list-style: none;
-    padding: 0;
-    margin: 0 0 40px 0;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .funny-instructions li {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    background: var(--bg-primary);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.point-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.instruction-content {
+    display: flex;
     align-items: flex-start;
-    gap: 16px;
-    margin-bottom: 24px;
-    font-size: 1rem;
-    line-height: 1.5;
+    gap: 15px;
 }
 
 .funny-instructions .emoji {
