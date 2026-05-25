@@ -3,6 +3,7 @@ const translations = {
         title_main: "Video submission for<br>Ashwini Reloaded",
         subtitle_main: "Search for moments, capture chaos, organize memories and record with real life energy — all without overthinking it.",
         intro: "Hey Ashwini 😭❤️ You are officially part of the music video.",
+        concept_desc: "I am creating a massive collaborative music video featuring everyone named Ashwini for my upcoming remake of the classic track \"Ashwini Ye Na\", officially titled <strong>Ashwini Reloaded</strong>.",
         format_rules_title: "🚨 Format & Rules",
         rule_1: "<strong>ALL VIDEOS MUST BE SHOT HORIZONTALLY</strong>",
         rule_2: "Please rotate your phone sideways before recording. Landscape format only.",
