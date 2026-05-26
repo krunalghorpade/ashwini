@@ -2,12 +2,18 @@ function toggleVideo(container) {
     const video = container.querySelector('video');
     if (video.paused) {
         video.play();
-        container.classList.add('playing');
     } else {
         video.pause();
-        container.classList.remove('playing');
     }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Sync video playing state with container UI (e.g. for autoplay and play/pause events)
+    document.querySelectorAll('.video-container video').forEach(video => {
+        video.addEventListener('play', () => video.parentElement.classList.add('playing'));
+        video.addEventListener('pause', () => video.parentElement.classList.remove('playing'));
+    });
+});
 
 const translations = {
     en: {

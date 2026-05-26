@@ -151,7 +151,10 @@ if ($pdo) {
             </div>
         </div>
 
-        <h2 class="serif-heading" style="font-size: 2rem; text-align: left; margin-bottom: 20px;">All Responses</h2>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h2 class="serif-heading" style="font-size: 2rem; margin: 0;">All Responses</h2>
+            <a href="export.php" class="btn" style="background: var(--btn-primary-bg); color: var(--btn-primary-text); padding: 10px 20px; border-radius: 30px; font-weight: 600; text-decoration: none; font-family: 'Inter', sans-serif;">Download CSV</a>
+        </div>
         
         <div class="table-container">
             <table>
