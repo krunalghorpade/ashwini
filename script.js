@@ -283,6 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formSteps.forEach((step, index) => {
             step.classList.toggle('active', index === currentStep);
         });
+        window.scrollTo(0, 0);
     }
 
     function updateProgressBar() {
@@ -342,6 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     form.style.display = 'none';
                     document.querySelector('.progress-container').style.display = 'none';
                     document.getElementById('success-step').style.display = 'block';
+                    window.scrollTo(0, 0);
                 } else {
                     throw new Error('Server error');
                 }
